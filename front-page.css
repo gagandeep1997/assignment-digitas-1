@@ -16,7 +16,7 @@
     padding-left: 15px;
 }
 .main-heading{
-    margin-left: 13%;
+    margin-left: 170px;
     margin-top: 20px;
     color: white;
 }
@@ -89,7 +89,7 @@
 .all-comments{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 98vw;
 }
 .comments-col-1{
     display: flex;
