@@ -1,64 +1,87 @@
-.container-1 {
-    background-repeat: no-repeat;
-    background-size: cover;
+.container-fluid.container-1 {
     padding-bottom: 200px;
+    background-color: rgb(109, 1, 1);
 }
-.front-1{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+.container-1-left-col{
+    margin-left: 15%;
 }
-.main-heading{
-    margin-left: 5px;
-    margin-top: 20px;
+.col.image-1-div{
+    margin-top: 10%;
+}
+.image-1{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+.container-1-right-col{
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.nav-bar-item{
+    text-decoration: none;
     color: white;
 }
-.nav-bar{
-  margin-left: 25%;
-  list-style-type: none;
-  overflow: hidden;
-  margin-top: 30px;
+.col.main-heading{
+    margin-left: -15px;
+    margin-top: 9%;
 }
-.list-item-1{
+.main-heading-1{
     color: white;
-    float: left;
-    margin-left: 20px;
 }
-.front-1-2{
-    margin-left: 10%;
+.btn.btn-danger.button-1{
+    background-color:white;
+    color: red;
+}
+.paragraph-1{
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 3px;
 }
 .heading-1{
     color: white;
-    margin-top: 5%;
-    margin-bottom: 20px;
+    margin-top: 15%;
+}
+.container-2-heading{
+    padding-top: 5%;
 }
 .heading-2{
     text-align:center;
-    margin-top: 9%;
-    margin-bottom: 60px;
-}
-.info-container{
-    display: flex;
-    flex-direction: row;
-    justify-content:start;
+    color: black;
+    font-weight: bold;
+    margin-top:1%;
 }
 .info-container-1{
     border-style:solid;
     border-color:rgb(243, 242, 242);
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 20px;
     padding-bottom: 10px;
-    width: 20%;
-    margin-left: 3%;
+    width: 85%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-content: center;
+    position: relative;
 }
-.icon-1{
-    margin-top: -70px;
-    margin-bottom: 35px;
+.fas.fa-exclamation-circle.icon-1{
+    position: absolute;
+    font-size:36px;
+    margin-top: -12%;
+    margin-left: 35%;
+}
+.info-container-1-heading{
+    text-align: center;
+    font-weight: bold;
+}
+.info-container-1-paragraph{
+    text-align: center;
+}
+.col.container-2-col{
+    margin-left: 5%;
+}
+.row.container-2-row{
+    margin-top: 5%;
 }
 .container-3{
     margin-top: 9%;
@@ -67,17 +90,16 @@
     padding-top: 9%;
     padding-bottom: 9%;
 }
-.container-3-main{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
 .container-3-heading{
-    margin-left: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
+    margin-left: -1%;
 }
-.container-3-paragrah{
-    margin-left: 500px;
+.container-4{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.container-4-heading{
+    text-align: center;
 }
 .all-comments{
     display: flex;
@@ -122,6 +144,16 @@
   margin-top: 8px;
   align-items: flex-end;
   margin-right: 10px;
+}
+.writer{
+    font-weight: bolder;
+}
+.writer-position{
+    margin-top: -10px;
+    color: gray;
+}
+.far.fa-laugh.happy-smile{
+    font-size: 50px;
 }
 .comment-box-1-2{
     display: flex;
@@ -247,93 +279,135 @@
     margin-left: 95%;
     margin-bottom: -23px;
   }
-.container-5{
+.container-fluid.container-5{
     padding-top: 10px;
     padding-bottom: 80px;
+    background-color:  rgb(77, 77, 77);
 }
-.container-5-main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 100px;
-    margin-left: 100px;
+.row.container-5-row{
+    margin-top: 7%;
+    margin-bottom: 4%;
 }
-.heading-5-1{
-    display: flex;
-    flex-direction: column;
+.container-5-heading{
+    margin-bottom: 30px;
+    color: white;
+    margin-left:18%;
+}
+.container-5-paragraph{
+    color: white;
+    margin-left:18%;
+}
+.btn.btn-outline-danger.container-5-button{
+    border-color: white;
+    color: white;
+    width: 190px;
+    margin-left:18%;
 }
 .heading-5-2{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: 2%;
+}
+.heading-skills{
+    margin-bottom: 10px;
+    color: white;
+}
+.container-5-all-skills{
+    color: white;
 }
 .language{
     margin-top: 20px;
 }
 .progress{
-    width: 500px;
-    margin-top: -10px;
+    width: 70%;
+}
+.progress-bar{
+    width: 50%;
 }
 .container-6{
-    margin-top: 70px;
+    margin-top: 8%;
     padding-bottom: 10px;
 }
-.main-blog{
-    display: flex;
-    flex-direction: row;
-    margin-left: 120px;
+.container-6-heading{
+    margin-bottom: 6%;
+}
+.container-6-image{
+    width:300px;
+    height:228px;
 }
 .blog{
-    display: flex;
-    flex-direction: column;
     margin-left: 30px;
 }
 .blog-timeline{
-    display: flex;
-    flex-direction: row;
     align-content: space-around;
     color: gray;
 }
 .blog-heading{
     margin-top: 20px;
     margin-bottom: 10px;
-    font-weight:500;
+    font-weight:bold;
 }
 .date{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
     margin-right: 35px;
+}
+.calender{
+    margin-right: 2px;
 }
 .comments{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
-.container-7{
-    display: flex;
-    flex-direction: row;
+.comments-icon{
+    margin-right: 2px;
+}
+.container-fluid.container-7{
     margin-top: 65px;
-    background-color: rgb(177, 31, 31);
+    background-color: rgb(163, 22, 22);
     padding-top: 50px;
     padding-bottom: 45px;
 }
 .container-7-heading{
-    display: flex;
-    flex-direction: column;
-    margin-left: 140px;
+    color: white;
+    margin-left: 16%;
 }
-.container-7-button{
-    margin-left: 220px;
+.container-7-paragraph{
+    color: white;
+    margin-left: 16%;
+}
+.btn.btn-outline-danger.container-7-button{
+    color: white;
+    border-color: white;
+    padding: 15px 15px 15px 15px; 
+    margin-left: 7%;  
 }
 .container-8{
-    display: flex;
-    flex-direction: row;
     background-color:rgb(58, 54, 54);
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.address-1{
-    margin-left: 50px;
+.col-4.container-8-left-col{
+    margin-top: 4%;
+}
+.row.row-cols-auto.container-8-div{
+    margin-left: 30%;
+}
+.container-8-image{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    margin-top: 15%;
+}
+.container-8-digitas{
+    color: white;
+    margin-left: -10%;
+}
+.place{
+    font-weight:bold;
+    color: white;
+}
+.container-8-paragraph{
+    color: white;
 }
 .logo{
     display: flex;
