@@ -78,6 +78,7 @@
     margin-top: 5%;
 }
 .container-3{
+    background-image: url('./gray-image.jpg');
     margin-top: 9%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,7 +323,7 @@
     margin-top: 8%;
     padding-bottom: 10px;
 }
-.col.container-6-col-1{
+/* .col.container-6-col-1{
     margin-left: 10%;
 }
 .col.container-6-col-2{
@@ -330,7 +331,7 @@
 }
 .col.container-6-col-3{
     margin-left: -8%;
-}
+} */
 .container-6-heading{
     margin-bottom: 6%;
 }
