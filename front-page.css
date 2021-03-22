@@ -59,16 +59,10 @@
     padding-bottom: 10px;
     width: 85%;
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
     position: relative;
 }
 .fas.fa-exclamation-circle.icon-1{
-    position: absolute;
     font-size:36px;
-    margin-top: -12%;
-    margin-left: 35%;
 }
 .info-container-1-heading{
     text-align: center;
@@ -327,6 +321,15 @@
 .container-6{
     margin-top: 8%;
     padding-bottom: 10px;
+}
+.col.container-6-col-1{
+    margin-left: 10%;
+}
+.col.container-6-col-2{
+    margin-left: -8%;
+}
+.col.container-6-col-3{
+    margin-left: -8%;
 }
 .container-6-heading{
     margin-bottom: 6%;
