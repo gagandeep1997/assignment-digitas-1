@@ -1,6 +1,20 @@
+.html{
+    overflow-x: hidden;
+}
+.main-container{
+    overflow-x: hidden;
+}
 .container-fluid.container-1 {
     padding-bottom: 200px;
     background-color: rgb(109, 1, 1);
+    overflow-x: hidden;
+}
+.navbar.navbar-expand-lg.mt-4.main-navbar{
+    background-color: rgb(109, 1, 1);
+}
+.row.row-cols-auto.nav-heading{
+    width: 30%;
+    margin-left: 9%;
 }
 .container-1-left-col-1{
     margin-left: 20%;
@@ -8,25 +22,31 @@
 .col.image-1-div{
     margin-top: 10%;
 }
+.navbar-toggler.back{
+    background-color: white;
+}
+.nav-link.nav-bar-item{
+    color: white;
+}
 .image-1{
     width:35px;
     height:35px;
     border-radius: 50%;
+    margin-top: 7px;
 }
 .container-1-right-col{
     margin-top: 10%;
     margin-left: 55px;
 }
-.nav-bar-item{
+.nav-link.nav-bar-item{
     text-decoration: none;
-    color: white;
 }
-.col.main-heading{
-    margin-left: -15px;
-    margin-top: 9%;
+.item{
+    color:white;
 }
 .main-heading-1{
     color: white;
+    margin-left: -15px;
 }
 .container-1-left-col-2{
     margin-left: 10%;
